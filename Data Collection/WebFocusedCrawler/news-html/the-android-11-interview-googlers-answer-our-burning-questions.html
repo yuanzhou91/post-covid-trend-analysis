@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>The Android 11 interview: Googlers answer our burning questions | Ars Technica</title>
+    <script type="text/javascript">
+    ars = {"ASSETS":"https:\/\/cdn.arstechnica.net\/wp-content\/themes\/ars\/assets","HOME_URL":"https:\/\/arstechnica.com","LOGIN_URL":"https:\/\/arstechnica.com\/services\/login-desktop.html?v=1","CIVIS":"\/civis","THEME":"light","VIEW":"grid","MOBILE":false,"SUBSCRIBER":false,"PLUS_PLUS":false,"LOGGED":false,"USER_ID":null,"ENV":"production","AD":{"tags":["series_the-android-interview-series"],"channel":"gadgets","slug":"the-android-11-interview-googlers-answer-our-burning-questions","template_type":"article","queue":[],"server":"production"},"TOTAL":97663,"UNREAD":0,"RECENT":[1711519,1711522,1710364,1711453,1711429,1710945,1711400,1710502,1711333,1711306,1711297,1711245,1711240,1711247,1710664,1711111,1711227,1711184,1711149,1711128,1710977,1711053,1711047,1711037,1710949],"LOGINS":true,"CROSS":false,"PARSELY":"arstechnica.com","COMMENTS":false,"HOMEPAGE":false,"SITE":1,"READY":[],"SHOW_ADS":true,"IMG_PROXY":"https:\/\/cdn.arstechnica.net\/i\/","CATEGORY":"gadgets","PAGETITLE":"","ZEN_MODE":false};
+  </script>
+
+  <link rel="stylesheet" type="text/css" media="all" href="https://cdn.arstechnica.net/wp-content/themes/ars/assets/css/main-7fc84676a6.css" />
+      <link rel="alternate" type="application/rss+xml" href="http://feeds.arstechnica.com/arstechnica/index/" />
+  <link rel="shortcut icon" href="https://cdn.arstechnica.net/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="https://cdn.arstechnica.net/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.arstechnica.net/wp-content/themes/ars/assets/img/ars-ios-icon-d9a45f558c.png" />
+  <link rel="mask-icon" href="https://cdn.arstechnica.net/wp-content/themes/ars/assets/img/ars-macos-safari-8997f76b21.svg" color="#ff4e00">
+  <link rel="icon" sizes="192x192" href="https://cdn.arstechnica.net/wp-content/themes/ars/assets/img/material-ars-db41652381.png" />
+
+    <meta name="application-name" content="Ars Technica"/>
+  <meta name="msapplication-starturl" content="http://arstechnica.com/"/>
+  <meta name="msapplication-tooltip" content="Ars Technica: Serving the technologist for 1.2 decades"/>
+  <meta name="msapplication-task" content="name=News;action-uri=http://arstechnica.com/;icon-uri=https://cdn.arstechnica.net/favicon.ico"/>
+  <meta name="msapplication-task" content="name=Features;action-uri=http://arstechnica.com/features/;icon-uri=https://cdn.arstechnica.net/ie-jump-menu/jump-features.ico"/>
+  <meta name="msapplication-task" content="name=OpenForum;action-uri=http://arstechnica.com/civis/;icon-uri=https://cdn.arstechnica.net/ie-jump-menu/jump-forum.ico"/>
+  <meta name="msapplication-task" content="name=Subscribe;action-uri=http://arstechnica.com/subscriptions/;icon-uri=https://cdn.arstechnica.net/ie-jump-menu/jump-subscribe.ico"/>
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="advertising" content="ask" />
+  <meta property="fb:admins" content="592156917" />
+  <meta property="fb:admins" content="108943" />
+    <meta property="fb:pages" content="19374573752" />
+  
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="theme-color" content="#000000" />
+
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- cache hit 3161:single/meta:c742580a42e6bf305b44d3058cff7312 -->
+<meta name='parsely-page' content='{"title":"The Android 11 interview: Googlers answer our burning questions","link":"https:\/\/arstechnica.com\/gadgets\/2020\/09\/the-android-11-interview-googlers-answer-our-burning-questions\/","type":"post","author":"Ron Amadeo","post_id":1703393,"pub_date":"2020-09-20T12:30:24Z","section":"Tech","tags":["type: feature"],"image_url":"https:\/\/cdn.arstechnica.net\/wp-content\/uploads\/2020\/09\/android-interview-150x150.jpg"}'>
+<meta name='parsely-metadata' content='{"type":"feature","title":"The Android 11 interview: Googlers answer our burning questions","post_id":1703393,"lower_deck":"Android engineers Dave Burke and Iliyan Malchev are back for our yearly Q&A.","image_url":"https:\/\/cdn.arstechnica.net\/wp-content\/uploads\/2020\/09\/android-interview-150x150.jpg","listing_image_url":"https:\/\/cdn.arstechnica.net\/wp-content\/uploads\/2020\/09\/android-interview-360x200.jpg"}'>
+
+<link rel="canonical" href="https://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/" />
+
+<link rel="amphtml" href="https://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/?amp=1">
+
+<link rel="shorturl" href="https://arstechnica.com/?p=1703393" />
+
+<meta name="description" content="Android engineers Dave Burke and Iliyan Malchev are back for our yearly Q&A." />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/">
+<meta name="twitter:title" content="The Android 11 interview: Googlers answer our burning questions">
+<meta name="twitter:description" content="Android engineers Dave Burke and Iliyan Malchev are back for our yearly Q&A.">
+
+<meta name="twitter:site" content="@arstechnica">
+<meta name="twitter:domain" content="arstechnica.com">
+
+<meta property="og:site_name" content="Ars Technica" />
+
+<meta name="twitter:image:src" content="https://cdn.arstechnica.net/wp-content/uploads/2020/09/android-interview-760x380.jpg">
+<meta name="twitter:image:width" content="760">
+<meta name="twitter:image:height" content="380">
+
+<meta name="twitter:creator" content="@RonAmadeo">
+
+<meta property="og:url" content="https://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/" />
+<meta property="og:title" content="The Android 11 interview: Googlers answer our burning questions" />
+<meta property="og:image" content="https://cdn.arstechnica.net/wp-content/uploads/2020/09/android-interview-760x380.jpg" />
+<meta property="og:description" content="Android engineers Dave Burke and Iliyan Malchev are back for our yearly Q&A." />
+<meta property="og:type" content="article" />
+  <!-- cache hit 3161:single/header:c742580a42e6bf305b44d3058cff7312 -->
+        
+  
+      <!-- Google Tag Manager DataLayer -->
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({"event":"data-layer-loaded","user":{"ars_userId":undefined,"amg_userId":undefined,"uID":undefined,"sID":undefined,"loginStatus":false,"subscriberStatus":"none","infinityId":undefined,"registrationSource":undefined,"mdw_cnd_id":undefined,"monthlyVisits":undefined,"accessPaywall":undefined,"view":"grid","theme":"light","show_comments":false},"content":{"pageTemplate":"single","pageType":"article|feature","contentCategory":"gadgets","section":"gadgets","subsection":undefined,"contributor":"Ron Amadeo","contentID":1703393,"contentLength":6405,"display":"The Android 11 interview: Googlers answer our burning questions","contentSource":"web","pageAssets":undefined,"uniqueContentCount":undefined,"monthlyContentCount":undefined,"publishDate":"2020-09-20T12:30:24+00:00","modifiedDate":"2020-09-20T21:00:34+00:00","keywords":"","dataSource":undefined},"marketing":{"campaignName":undefined,"circCampaignId":undefined,"internalCampaignId":undefined,"brand":"Ars Technica","certified_mrc_data":undefined,"condeNastId":undefined},"page":{"pID":undefined,"syndicatorUrl":undefined,"pageURL":"https:\/\/arstechnica.com\/?p=1703393","canonical":"https:\/\/arstechnica.com\/gadgets\/2020\/09\/the-android-11-interview-googlers-answer-our-burning-questions\/","canonicalPathName":"\/gadgets\/2020\/09\/the-android-11-interview-googlers-answer-our-burning-questions\/"},"search":{"facets":undefined,"searchTerms":undefined},"site":{"appVersion":"1.0.0"}});
+</script>
+<!-- End Google Tag Manager DataLayer -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NLXNPCQ');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+class ABTest {
+  constructor(post_id, init_method) {
+    this.post_id = post_id;
+    this.ajaxurl = '/services/ars-ajax-handler.php';
+    this.expireDays = 1/48; // 30 min
+    this.group = this.getGroup();
+    this.uid = this.getUid();
+    this.init_method = init_method;
+    this.setTitle();
+
+    if (this.init_method === 'click') {
+      this.click();
+    }
+    else {
+      this.impression();
+    }
+  }
+
+  setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/";
+  }
+
+  getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+
+  // Retrieves a unique id for determining whether the event should be recorded
+  getUid() {
+    var uid = this.getCookie('ars_ab_' + this.post_id + '_uid');
+    if (!uid) {
+      uid = (Math.random() + 1).toString(36).substring(2,7);
+      this.setCookie('ars_ab_' + this.post_id + '_uid', uid, this.expireDays);
+    }
+    return uid;
+  };
+
+  // Places the user in either A or B for this post id
+  getGroup() {
+    var group = this.getCookie('ars_ab_' + this.post_id + '_group');
+    if (!group) {
+      group = String.fromCharCode(Math.floor(Math.random() * 2) + 65).toLowerCase();
+      this.setCookie('ars_ab_' + this.post_id + '_group', group, this.expireDays);
+    }
+    return group;
+  };
+
+  // Records a headline impression (from homepage or other listing)
+  impression() {
+    // Send fake ajax
+    var params = {
+      nonce:        '9f417b7b46',
+      action:       'ars_ab_impression',
+      id:           this.post_id,
+      group:        this.group,
+      uid:          this.uid,
+      ts:           (new Date()).getTime()
+    };
+    var url = this.ajaxurl + '?' + this.encodeParams(params);
+    document.write('\x3Cscript type="text/javascript" src="' + url + '">\x3C/script>');
+  };
+
+  // Records a headline click from the actual post page
+  click() {
+    // Send fake ajax
+    var params = {
+      nonce:        'ec459b433d',
+      action:       'ars_ab_click',
+      id:           this.post_id,
+      group:        this.group,
+      uid:          this.uid,
+      ts:           (new Date()).getTime()
+    };
+    var url = this.ajaxurl + '?' + this.encodeParams(params);
+    document.write('\x3Cscript type="text/javascript" src="' + url + '">\x3C/script>');
+  };
+
+  // If user is in B group, dynamically set title
+  setTitle() {
+    if (this.group == 'b') {
+      var span = document.getElementById('ars_ab_' + this.post_id);
+      var title = span.parentNode;
+      title.innerHTML = span.getAttribute('data-title-b');
+    }
+  };
+
+  encodeParams(data) {
+    var ret = [];
+    for (var d in data)
+      ret.push(encodeURIComponent(d) + "=" + encodeURIComponent(data[d]));
+    return ret.join("&");
+  };
+
+};
+</script><!-- OneTrust Cookies Consent Notice start -->
+<script 
+    src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  
+    type="text/javascript" charset="UTF-8" 
+    data-domain-script="b10882a1-8446-4e7d-bfb2-ce2c770ad910">
+</script>
+<script type="text/javascript">function OptanonWrapper(){};</script>
+<script 
+    src="https://cdn.cookielaw.org/opt-out/otCCPAiab.js" 
+    type="text/javascript" 
+    charset="UTF-8" 
+    ccpa-opt-out-ids="C0002,C0003,C0004,C0005" 
+    ccpa-opt-out-geo="ca" 
+    ccpa-opt-out-lspa="true">
+</script> 
+<!-- OneTrust Cookies Consent Notice end -->
+<script src="https://www.googletagservices.com/tag/js/gpt.js" id="gpt-script" async ></script>
+<script>window.googletag=window.googletag||{};window.googletag.cmd=window.googletag.cmd||[];window.cns=window.cns||{};window.cns.queue=[];window.cns.async=function(s,c){cns.queue.push({service:s,callback:c})};window.sparrowQueue=window.sparrowQueue||[];</script>
+<link rel="dns-prefetch" href="//aax.amazon-adsystem.com">
+<link rel="preconnect" href="//aax.amazon-adsystem.com" crossorigin>
+<link rel="preconnect" href="https://mb.moatads.com" crossorigin>
+<script src="https://c.amazon-adsystem.com/aax2/apstag.js" async></script>
+<script src="https://cdn.arstechnica.net/cns/prebid.min.js?v=1601777070"></script>
+<script src="https://js-sec.indexww.com/ht/p/183973-93942139695505.js" async></script>
+<script src="https://z.moatads.com/condenastprebidheader987326845656/moatheader.js" async></script>
+<script>
+  window.cns.pageContext = {"contentType":"article","templateType":"article","channel":"gadgets","subChannel":"","slug":"the-android-11-interview-googlers-answer-our-burning-questions","server":"production","keywords":{"tags":["series_the-android-interview-series"],"cm":[],"platform":["wordpress"],"copilotid":""}};
+</script>
+<script src="https://cdn.arstechnica.net/cns/ars-technica.min.js?v=1601777070"></script>
+<script type="text/javascript" src="https://cdn.arstechnica.net/wp-content/themes/ars/assets/js/ars-32ecec341f.ads.us.js"></script>
+</head>
+<body class="post-template-default single single-post postid-1703393 single-format-standard grid-view light fullwidth blog-us">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLXNPCQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  	<aside class="ad ad_crown" aria-label="Top of page advertisement"></aside>
+
+<div class="site-wrapper">
+  <a class="screen-reader-text skip-link" href="#main" aria-label="Skip to main content">Skip to main content</a>    
+  <header class="site-header">
+    <div class="header-left">
+      <a href="https://arstechnica.com" id="header-logo" title="Ars Technica Homepage">
+      <span class="icon icon-logo-ars-us"></span>
+  </a>
+    </div>
+
+    <div class="header-right">
+      <nav id="header-nav-primary">
+        <ul>
+          
+  <li><a class="nav-link section-information-technology " href="/information-technology/">Biz &amp; IT</a></li>
+  <li><a class="nav-link section-gadgets active" href="/gadgets/">Tech</a></li>
+  <li><a class="nav-link section-science " href="/science/">Science</a></li>
+  <li><a class="nav-link section-tech-policy " href="/tech-policy/">Policy</a></li>
+  <li><a class="nav-link section-cars " href="/cars/">Cars</a></li>
+  <li><a class="nav-link section-gaming " href="/gaming/">Gaming &amp; Culture</a></li>
+
+<li><a class="nav-link store" href="/store/">Store</a></li>
+<li><a class="nav-link forums" href="/civis/">Forums</a></li>
+        </ul>
+      </nav>
+
+              <a href="/store/product/subscriptions/" class="header-highlight-link">Subscribe</a>
+                  <div class="dropdown" id="header-search">
+        <a href="/search/" class="dropdown-toggle search-toggle" aria-label="Search" aria-expanded="false">
+          <span class="icon icon-search-mag-glass"></span>
+        </a>
+        <div class="dropdown-content">
+          <form action="/search/" method="GET" id="search_form">
+  <input type="hidden" name="ie" value="UTF-8">
+  <input type="text" name="q" id="hdr_search_input" value="" aria-label="Search..." placeholder="Search...">
+</form>
+<a class="nav-search-close">Close</a>
+        </div>
+      </div>
+      <div class="dropdown dropdown-mega" id="header-burger">
+        <a href="#site-menu" class="dropdown-toggle" aria-label="Menu" aria-expanded="false">
+          <span></span>
+        </a>
+        <div id="site-menu" class="dropdown-content">
+          <section class="burger-navigate">
+  <h3>
+    <span class="icon icon-half-target"></span>
+    Navigate
+  </h3>
+  <ul>
+  <li><a class="nav-link store" href="/store/">Store</a></li>
+  <li><a class="nav-link subscribe" href="/store/product/subscriptions/">Subscribe</a></li>
+    <li><a class="nav-link videos" href="http://video.arstechnica.com/">Videos</a></li>
+    <li><a class="nav-link section-features" href="/features/">Features</a></li>
+    <li><a class="nav-link section-reviews" href="/reviews/">Reviews</a></li>
+  </ul>
+
+  <ul>
+    <li><a class="nav-link page-rss-feeds" href="/rss-feeds/">RSS Feeds</a></li>
+    <li><a class="nav-link mobile" href="/?view=mobile">Mobile Site</a></li>
+  </ul>
+
+  <ul>
+    <li><a class="nav-link page-about-us" href="/about-us/">About Ars</a></li>
+    <li><a class="nav-link page-staff-directory" href="/staff-directory/">Staff Directory</a></li>
+    <li><a class="nav-link page-contact-us" href="/contact-us/">Contact Us</a></li>
+  </ul>
+
+  <ul>
+    <li><a class="nav-link page-advertise-with-us" href="/advertise-with-us/">Advertise with Ars</a></li>
+    <li><a class="nav-link page-reprints" href="/reprints/">Reprints</a></li>
+  </ul>
+</section>
+
+<section class="burger-filter">
+  <h3>
+    <span class="icon icon-half-mag"></span>
+    Filter by topic
+  </h3>
+  <ul id="burger-nav-primary">
+    
+  <li><a class="nav-link section-information-technology " href="/information-technology/">Biz &amp; IT</a></li>
+  <li><a class="nav-link section-gadgets active" href="/gadgets/">Tech</a></li>
+  <li><a class="nav-link section-science " href="/science/">Science</a></li>
+  <li><a class="nav-link section-tech-policy " href="/tech-policy/">Policy</a></li>
+  <li><a class="nav-link section-cars " href="/cars/">Cars</a></li>
+  <li><a class="nav-link section-gaming " href="/gaming/">Gaming &amp; Culture</a></li>
+
+<li><a class="nav-link store" href="/store/">Store</a></li>
+<li><a class="nav-link forums" href="/civis/">Forums</a></li>
+  </ul>
+</section>
+
+<section class="burger-settings">
+  <h3>
+    <span class="icon icon-half-gear"></span>
+    Settings
+  </h3>
+  <div>
+    <div class="burger-layout">
+      
+<p>Front page layout</p>
+<div class="burger-layout-grid">
+  <a rel="nofollow" href="http://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/?view=grid" class="">
+    <span class="icon icon-grid"></span><br>
+    Grid
+    <div class="faux-radio active"></div>
+      </a>
+</div>
+
+<div class="burger-layout-list">
+  <a rel="nofollow" href="http://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/?view=archive" class="">
+    <span class="icon icon-list"></span><br>
+    List
+    <div class="faux-radio "></div>
+      </a>
+</div>
+
+    </div>
+    <div class="burger-theme">
+      
+<p>Site theme</p>
+<div class="burger-theme-light">
+  <a rel="nofollow" href="http://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/?theme=light" class="">
+    <span><span>Black on white</span></span>
+    <div class="faux-radio active"></div>
+      </a>
+</div>
+
+<div class="burger-theme-dark">
+  <a rel="nofollow" href="http://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/?theme=dark" class="">
+    <span><span>White on black</span></span>
+    <div class="faux-radio "></div>
+      </a>
+</div>
+    </div>
+  </div>
+</section>
+        </div>
+      </div>
+      <div class="dropdown dropdown-mega" id="header-account">
+      <a href="https://arstechnica.com/civis/ucp.php?mode=login&return_to=%2Fgadgets%2F2020%2F09%2Fthe-android-11-interview-googlers-answer-our-burning-questions%2F" class="dropdown-toggle" aria-expanded="false">
+      Sign in
+      <span class="icon dropdown-indicator icon-drop-indicator"></span>
+    </a>
+    <div class="dropdown-content">
+    <section class="profile-activity">
+      <h3>
+        <span class="icon icon-half-bubble-up"></span>
+        Comment activity
+      </h3>
+              <p>Sign up or login to join the discussions!</p>
+          </section>
+
+    <section class="profile-settings">
+              <form id="login-form" action="https://arstechnica.com/civis/ucp.php?mode=login" method="post">
+  <input type="text" name="username" id="username" placeholder="Username or Email" aria-label="Username or Email" />
+  <input type="password" name="password" id="password"  placeholder="Password" aria-label="Password" />
+  <input type="submit" value="Submit" class="button button-orange button-wide" name="login" />
+  <label id="remember-label">
+    <input type="checkbox" name="autologin" id="autologin" />
+  Stay logged in</label> <span>|</span> <a href="/civis/ucp.php?mode=sendpassword">Having trouble?</a>
+
+  <input type="hidden" name="redirect" value="./ucp.php?mode=login&amp;autoredirect=1&amp;return_to=%2Fgadgets%2F2020%2F09%2Fthe-android-11-interview-googlers-answer-our-burning-questions%2F" />
+  <input type="hidden" name="return_to" value="/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/" />
+</form>
+<div class="register-account">
+  <span>Sign up to comment and more</span>
+  <a href="https://arstechnica.com/civis/ucp.php?mode=register" class="signup-btn button button-wide">Sign up</a>
+</div>
+      
+    </section>
+  </div>
+</div>
+    </div>
+  </header>
+
+        
+  <main id="main" class="content-wrapper">
+
+<script type="text/javascript">
+  ars.ARTICLE = {"url":"https:\/\/arstechnica.com\/gadgets\/2020\/09\/the-android-11-interview-googlers-answer-our-burning-questions\/","short_url":"https:\/\/arstechnica.com\/?p=1703393","title":"The Android 11 interview: Googlers answer our burning questions","author":391727,"id":1703393,"topic":1470259,"pages":3,"current_page":1,"superscroll":true,"promoted":[],"single_page":false,"comments":76,"fullwidth":true,"slug":"the-android-11-interview-googlers-answer-our-burning-questions","arsStaff":{"104481":{"name":"Aaron Zimmerman","title":"Copyeditor","staff":true},"332715":{"name":"Andrew Cunningham","title":"Reviews Editor Emeritus","staff":false},"1002":{"name":"Aurich Lawson","title":"Creative Director","staff":true},"509873":{"name":"Beth Mole","title":"Health Reporter","staff":true},"453791":{"name":"Cathleen O'Grady","title":"Contributing science reporter","staff":true},"102179":{"name":"Chris Lee","title":"Associate writer","staff":true},"821742":{"name":"Corey Gaskin","title":"Senior Commerce Writer","staff":true},"329388":{"name":"Dan Goodin","title":"Security Editor","staff":true},"254631":{"name":"Diana Gitig","title":"Associate Writer","staff":false},"25862":{"name":"Eric Bangeman","title":"Managing Editor","staff":true},"512413":{"name":"Eric Berger","title":"Senior Space Editor","staff":true},"46707":{"name":"Iljitsch van Beijnum","title":"Associate Writer","staff":false},"316010":{"name":"Jason Marlin","title":"Technical Director","staff":true},"746799":{"name":"Jennifer Ouellette","title":"Senior Writer","staff":true},"15365":{"name":"Jeremy Reimer","title":"Senior Niche Technology Historian","staff":false},"4086":{"name":"Jim Salter","title":"Technology Reporter","staff":true},"52979":{"name":"John Timmer","title":"Senior Science Editor","staff":true},"312082":{"name":"Jon Brodkin","title":"Senior IT Reporter","staff":true},"14317":{"name":"Jonathan M. Gitlin","title":"Automotive Editor","staff":true},"786739":{"name":"Kate Cox","title":"Tech Policy Reporter","staff":true},"998":{"name":"Ken Fisher","title":"Editor in Chief","staff":true},"440179":{"name":"Kerry Staurseth","title":"Associate Copyeditor","staff":true},"328283":{"name":"Kyle Orland","title":"Senior Gaming Editor","staff":true},"10243":{"name":"Lee Hutchinson","title":"Senior Technology Editor","staff":true},"173191":{"name":"Matthew Lasar","title":"Associate writer","staff":true},"182268":{"name":"Nate Anderson","title":"Deputy Editor","staff":true},"330533":{"name":"Nathan Mattise","title":"Features Editor","staff":true},"1991":{"name":"Ohrmazd","title":"","staff":false},"391727":{"name":"Ron Amadeo","title":"Reviews Editor","staff":true},"348927":{"name":"Sam Machkovech","title":"Tech Culture Editor","staff":true},"588289":{"name":"Samuel Axon","title":"Senior Reviews Editor","staff":true},"294205":{"name":"Scott K. Johnson","title":"Associate Writer","staff":true},"671621":{"name":"Steven Klein","title":"Developer","staff":false},"173910":{"name":"Timothy B. Lee","title":"Senior tech policy reporter","staff":true}},"tags":[],"zen_mode":false,"vote_sentiments":[{"sentiment_id":"1","sentiment":"agree","direction":"positive","icon":null,"label":"Agree"},{"sentiment_id":"3","sentiment":"interesting","direction":"positive","icon":null,"label":"Interesting"},{"sentiment_id":"5","sentiment":"funny","direction":"positive","icon":null,"label":"Funny"},{"sentiment_id":"6","sentiment":"addsto","direction":"positive","icon":null,"label":"Adds to Story"},{"sentiment_id":"7","sentiment":"disagree","direction":"negative","icon":null,"label":"Disagree"},{"sentiment_id":"8","sentiment":"inaccurate","direction":"negative","icon":null,"label":"Inaccurate"},{"sentiment_id":"11","sentiment":"pointless","direction":"negative","icon":null,"label":"Doesn't Contribute"},{"sentiment_id":"12","sentiment":"abusive","direction":"negative","icon":null,"label":"Abusive"}]};
+</script>
+
+<article itemscope itemtype="http://schema.org/NewsArticle" class="article-single standalone intro-standard " id="">
+      <div class="column-wrapper">
+
+  <div class="left-column">
+    <header class="article-header">
+      <h4 class="post-upperdek">
+      Via Google Meet, of course    &mdash;
+</h4>
+      <h1 itemprop="headline">The Android 11 interview: Googlers answer our burning questions</h1>
+      <h2 itemprop="description">Android engineers Dave Burke and Iliyan Malchev are back for our yearly Q&A.</h2>
+      <section class="post-meta">
+
+  
+  <p class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person">
+      <a itemprop="url" href="https://arstechnica.com/author/ronamadeo/" rel="author"><span itemprop="name">Ron Amadeo</span></a>
+    -  <time class="date" data-time="1600605024" datetime="2020-09-20T12:30:24+00:00">Sep 20, 2020 12:30 pm UTC</time>
+  </p>
+
+
+  
+</section>    </header>
+
+    <section class="article-guts">
+      <div itemprop="articleBody" class="article-content post-page">
+        
+<figure class="intro-image full">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2020/09/android-interview-980x552.jpg" alt="The Android 11 interview: Googlers answer our burning questions"/>
+      <figcaption class="caption"><div class="caption-credit">Aurich Lawson / Getty Images</div></figcaption>  </figure>
+
+  <aside id="social-left" class="social-left" aria-label="Read the comments or share this article">
+    <a title="52 posters participating" class="comment-count icon-comment-bubble-down" href="https://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/?comments=1">
+      <h4 class="comment-count-before">reader comments</h4>
+    
+  <span class="comment-count-number">76</span>
+  <span class="visually-hidden"> with 52 posters participating</span>
+  </a>
+  
+
+<div class="share-links">
+  <h4>Share this story</h4>
+  <ul>
+    <li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1703393" target="_blank" class="social-icon share-facebook" title="Share on Facebook"><span class="visually-hidden">Share on Facebook</span></a></li>
+    <li><a href="https://twitter.com/share?text=The+Android+11+interview%3A+Googlers+answer+our+burning+questions&url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1703393" target="_blank" class="social-icon share-twitter" title="Share on Twitter"><span class="visually-hidden">Share on Twitter</span></a></li>
+    <li><a href="https://www.reddit.com/submit?url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1703393&title=The+Android+11+interview%3A+Googlers+answer+our+burning+questions" target="_blank" class="social-icon share-reddit" title="Share on Reddit"><span class="visually-hidden">Share on Reddit</span></a></li>
+  </ul>
+</div>
+      </aside>
+
+
+
+
+
+<p>We've established a bit of a tradition here at Ars. Every year at Google I/O, we have a sit-down talk to learn more about Android directly from the people that make it. Of course, this year, just about every major event was canceled due to the coronavirus pandemic, nothing is really normal, and Google I/O never happened.</p>
+<p>We can still do interviews over the Internet though! So while it happened later in the year than normal, we were still able to hold our annual chat with some of the most important Googlers at Android HQ: Dave Burke, Android's VP of Engineering, and Iliyan Malchev, Principal Engineer at Android and the lead of Project Treble.</p>
+<p>We came prepped with questions about the more mysterious corners of Android 11, which actually led to a lot of interesting talk about the future. You'll learn about a coming re-write of the Bluetooth stack, and there's lots of talk about modularity and easy updating (like plans will hopefully, someday, allow you to update the Linux kernel and developer APIs as easily as you download an app update).</p>
+<p><aside class="related-stories right">
+  <h2 class="subheading notched">The Android Interview Series</h2>
+	<ul>
+	    <li><a class="recommendation-series" href="https://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/">The Android 11 interview: Googlers answer our burning questions</a></li>
+      <li><a class="recommendation-series" href="https://arstechnica.com/gadgets/2019/07/android-qa-android-engineers-take-us-on-a-deep-dive-of-android-q/">Android Q(&amp;A): Android Engineers take us on a deep dive of Android Q</a></li>
+      <li><a class="recommendation-series" href="https://arstechnica.com/gadgets/2018/08/p-is-for-power-how-google-tests-tracks-and-improves-android-battery-life/">“P is for Power”—Android engineers talk battery life improvements in Android P</a></li>
+      <li><a class="recommendation-series" href="https://arstechnica.com/gadgets/2018/06/talkin-treble-how-android-engineers-are-winning-the-war-on-fragmentation/">Talkin’ Treble: How Android engineers are winning the war on fragmentation</a></li>
+      <li><a class="recommendation-series" href="https://arstechnica.com/gadgets/2017/05/ars-talks-android-googlers-chat-about-project-treble-os-updates-and-linux/">Android execs get technical talking updates, Project Treble, Linux, and more</a></li>
+    </ul>
+  <span class="read-more"><a class="recommendation-series" href="https://arstechnica.com/series/the-android-interview-series/">View more stories</a></span>
+</aside>
+This interview took place just days before the launch of Android 11, which went final on September 8t. As usual, this has only been lightly edited for clarity, and I'll include whatever background is needed in italics. Given the odd state of everything as we all popped into a Google Meet video chat, COVID was an obvious first topic.</p>
+<p><strong>Ars: How are you all dealing with COVID-19 in Android development land?</strong></p>
+<p><strong>Dave Burke:</strong> Good. Like everyone, when we did the work-from-home switch, it was a bit of a scramble to say the least. We had a lot of developer productivity things to iron out. A lot of people use high-powered workstations for building the operating system, with a phone tethered over USB, and we wanted to find a way that they could still use their workstations but flash to a phone that was tethered to a laptop. So we did a bunch of infrastructure work and whatnot to get everyone up and running. That actually worked pretty well. I was pretty impressed.</p>
+<p>Google Meet worked out great, too. I remember thinking a couple years ago, "Wow, Google is investing a lot in this video conferencing stuff, why not use something commercial?" But now I'm so glad <a href="https://arstechnica.com/gadgets/2020/04/google-meet-googles-third-video-chat-service-is-now-free-for-everyone/">Google built its own</a>. A lot of us now use the Meet rooms, so we have a lot of like virtual, Slack-like channels, if you want to call it that. It's been pretty good!</p>
+<p>I mean it's obviously been tough as well, not having things like corridor conversations. We saw somewhere between like a 7 to  11 percent drop in productivity, I would say, at the beginning. Then it seemed to recover as people adapted. We did set the schedule back <a href="https://arstechnica.com/gadgets/2020/05/google-delays-android-11-beta-announces-i-o-replacement-event-for-june-3/">about a month</a> just because we need to accommodate folks with that transition. The industry needed time to adapt, too, but yeah, it's mostly working out. Of course, I think we would all be quite happy to go back to work.</p>
+<p><strong>Iliyan Malchev:</strong> I think the biggest worry going into COVID was just, 'Will the ISP infrastructure be able to handle this huge spike in media consumption?' It seems to have held up for the most part.</p>
+<p><strong>Burke:</strong> The other thing I've been working on is is<a href="https://arstechnica.com/information-technology/2020/04/apple-and-google-detail-bold-and-ambitious-plan-to-track-covid-19-at-scale/"> exposure notifications with Apple</a>, so that's been pretty intense. We're building capacity to detect if you've been approximate to someone who has tested positive for COVID-19. We've been running fast on that, so that's been an exciting extra second job.</p>
+<p><div class="pullbox sidebar story-sidebar right"><div class="story-sidebar-part"><a href="https://arstechnica.com/information-technology/2020/04/apple-and-google-detail-bold-and-ambitious-plan-to-track-covid-19-at-scale/" class="recommendation-further-reading story-sidebar-part-img" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2020/04/covid-19-tracking-1-360x200.jpg');" tabindex="-1" role="presentation" aria-hidden="true"></a><div class="story-sidebar-part-content"><h3>Further Reading</h3><a class="recommendation-further-reading" href="https://arstechnica.com/information-technology/2020/04/apple-and-google-detail-bold-and-ambitious-plan-to-track-covid-19-at-scale/">Apple and Google detail bold and ambitious plan to track COVID-19 at scale</a></div></div></div><em>Ah, yes, Android's COVID exposure notifications rolling out to a smartphone near you. The APIs for this have shipped in Google Play Services and rolled out to basically all of the two billion Google Play Android devices out there. Full OS updates might be dependent on your device manufacturer, but Play Services updates hit every phone that has the Play Store installed, so basically every Android phone outside of China.<br />
+</em></p>
+<figure class="image shortcode-img full-width" style="width:980px"><a href="https://cdn.arstechnica.net/wp-content/uploads/2020/09/51-1.jpg" class="enlarge" data-height="947" data-width="1356" alt='Google is going to start generating COVID apps itself so states and other entities can get up-and-running easier. ' ><img alt='Google is going to start generating COVID apps itself so states and other entities can get up-and-running easier. '  src="https://cdn.arstechnica.net/wp-content/uploads/2020/09/51-1-980x684.jpg" width="980" height="684" alt='Google is going to start generating COVID apps itself so states and other entities can get up-and-running easier. ' ></a><figcaption class="caption"><div class="caption-text"><a href="https://cdn.arstechnica.net/wp-content/uploads/2020/09/51-1.jpg" class="enlarge-link" data-height="947" data-width="1356">Enlarge</a> <span class="sep">/</span> Google is going to start generating COVID apps itself so states and other entities can get up-and-running easier. </div><div class="caption-credit">Google</div></figcaption></figure>
+<p><em>The current problem with COVID tracking is that individual health organizations need to make apps that plug into this API, and in the US, that's usually your state government. States don't really have competent app developers on call for something like this (Is your local DMV website as much of a disaster as mine?). So far, <a href="https://www.xda-developers.com/google-apple-covid-19-contact-tracing-exposure-notifications-api-app-list-countries/">only six states</a> currently have COVID apps. It sounds like Google's next step to try and fix this is to <a href="https://9to5google.com/2020/09/01/exposure-notifications-express/">make apps itself</a>, so states only need to supply a configuration file to get up and running. </em></p>
+<h2>Project Mainline updates</h2>
+<p><em>Project Mainline, aka "Google Play System Updates" is <a href="https://arstechnica.com/gadgets/2019/09/android-10-the-ars-technica-review/#h8">one of the biggest changes</a> to come to Android in some time. The feature debuted in Android 10, and it's a major step in the modularization of Android. Mainline added a new "APEX" file type, designed to package core system components for easy updatability through the Play Store. Previously, the Play Store only shipped APK files, which, since they were built with third-party apps in mind, came with all sorts of security and functionality limitations that wouldn't work for core system components. APEX files can only come from Google or your OEM, so these offer a lot more power and start-up earlier in the boot process. APEX files can do things like update the app framework, which you could never do with an app. </em></p>
+<p><em>Mainline was also about getting OEMs on-board with Google taking over more of Android's base code—code that previously was available to OEMs to customize. Google had to sit down with all the OEMs (I imagine these meetings look like <a href="https://www.youtube.com/watch?v=aBHLvNrZh9Q">the Galactic Senate</a>) and ask, "Do you really need to customize the way the DNS resolver works?" When all the answers come back "no," that becomes a Mainline module and everyone agrees to ship the same piece of code. When there are customization concerns, Google and OEMs are working together to upstream code into a module that everyone can use. </em></p>
+<p><em>That was Android 10. For Android 11, the last news we got about Mainline was Google's <a href="https://android-developers.googleblog.com/2020/02/Android-11-developer-preview.html">first developer preview blog pos</a>t from February, which said there were "12 new modules" in Mainline. It didn't provide much more detail than that.</em></p>
+<p><strong>Ars: Your blog post said there were "12 new apex modules" in Android 11, but what are they exactly?<br />
+</strong></p>
+<p><strong>Burke:</strong> Yeah, there's a bunch. I have a list here: so statsd, which is our daemon for collecting stats, and that makes sense because you want to have uniform telemetry. Wi-Fi tethering is a new module. NNAPI—the neural networks API—again, that's another space that's changing rapidly as we learn more techniques in machine learning. ADBD. Cell broadcast. There's some Wi-Fi modules. SDK extension stuff. Oh, and a media provider as well, which underpins scoped storage, so we wanted that to be updatable.</p>
+<p>I think there's a total of 21 modules now and I think probably more important than what the actual modules are is the work that's gone into the infrastructure to make them possible. We have very advanced release management. We've got short-term, long-term telemetry. We've got A-B capability. We've got a file system snapshot in the rollback. And the other part, of course, is just a cultural change for the developers to learn how to write in a module that's being updated all the time. I'm pretty excited about the foundation that we've laid more than what the specific modules are because there's more to come.</p>
+<p><strong>Ars: Speaking of "more to come," I wanted to ask about that "SDK extension module," which sounds pretty important. Is this as interesting as I'm imagining? You want to deliver new API levels via the Play Store?<br />
+</strong></p>
+<p><em>OK, time out while I explain this question: Android versions are identified to you and me by their version numbers, but internally Android identifies itself to apps with a number interchangeably called the "SDK level" or "API level." So all the new features, permissions, and security restrictions in Android 11 are available to apps in "API Level 30." In the past, API Levels have always gone up +1 with each Android release (even for the smaller 0.1 releases, which is <a href="https://source.android.com/setup/start/build-numbers">why we're at level 30</a>).</em></p>
+<p><em> The speculation with an SDK module is that Google would be able to ship entire new SDK levels to developers, including new features, without having to push out an entire OS update. This would be absolutely incredible for Android, since full OS updates have such poor distribution and small user bases that developers are reluctant to support new APIs when no one can run them. API levels over Google Play would be just like a Play Services rollout, where a new feature can hit two billion devices virtually overnight. This also sounds very hard to believe, because a new developer API can hit any part of the OS. How could you possibly update that via a single module? </em></p>
+<p><strong>Burke:</strong> I think the whole idea of updatable OS modules is a pretty profound shift, so it's all pretty interesting. But yeah, we have the ability in Android 11—Android R, as we call it—to create new system APIs and deploy them in mainline modules. That's in R. In S <em>[Android S would be version 12], </em>we're going to plan to be able to actually deliver new public APIs in Mainline modules, so we're really just extending the breadth of what's a module and what's updatable.</p>
+<p><strong>Ars: That's going to have to be more limited than a full OS update, right? How well can that work compared to an OTA? It sounds amazing but also pretty hard.<br />
+</strong></p>
+<p><strong>Burke: </strong>Yeah, I think it's still early. You're right. The challenge with updatable modules is that the module updates but you can't assume that everything around it updates. So, you have to be careful and have stable internal APIs or boundaries between those interfaces.</p>
+<p>So yeah, we're still working. I think what you really want is for the API to be connected only to another updateable module, otherwise it doesn't quite make sense. We're building out the capability and then we'll see what we'll use it for.</p>
+
+
+                  <div id="action_button_container"></div>
+              </div>
+
+      
+              <nav class="page-numbers">Page: <span class="numbers">1 <a href="https://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/2/">2</a> <a href="https://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/3/">3</a> <a href="https://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/2/"><span class="next">Next <span class="arrow">&rarr;</span></span></a></span></nav>
+      
+    </section>
+  </div>
+
+  <div class="xrail">
+    <div class="xrail-content">
+            
+      
+      
+              <div class="ars-interlude-container ad_xrail ad_xrail_top"></div>
+      
+      
+              <aside class="ad ad_xrail ad_xrail_top ad_xrail_last" aria-label="Top sidebar advertisement"></aside>
+          </div>
+  </div>
+
+</div>
+
+<div class="column-wrapper">
+  <div class="left-column">
+    <div id="social-footer">
+      <a title="52 posters participating" class="comment-count icon-comment-bubble-down" href="https://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/?comments=1">
+      <h4 class="comment-count-before">reader comments</h4>
+    
+  <span class="comment-count-number">76</span>
+  <span class="visually-hidden"> with 52 posters participating</span>
+  </a>
+  
+
+<div class="share-links">
+  <h4>Share this story</h4>
+  <ul>
+    <li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1703393" target="_blank" class="social-icon share-facebook" title="Share on Facebook"><span class="visually-hidden">Share on Facebook</span></a></li>
+    <li><a href="https://twitter.com/share?text=The+Android+11+interview%3A+Googlers+answer+our+burning+questions&url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1703393" target="_blank" class="social-icon share-twitter" title="Share on Twitter"><span class="visually-hidden">Share on Twitter</span></a></li>
+    <li><a href="https://www.reddit.com/submit?url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1703393&title=The+Android+11+interview%3A+Googlers+answer+our+burning+questions" target="_blank" class="social-icon share-reddit" title="Share on Reddit"><span class="visually-hidden">Share on Reddit</span></a></li>
+  </ul>
+</div>
+    </div>
+          <!-- cache hit 3161:single/author:ad3f22d2633ad35e56a7119215c530d2 --><section class="article-author">
+      <a style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2016/05/r.amadeo-45843.jpg');" class="author-photo" href="/author/ronamadeo" tabindex="-1" role="presentation" aria-hidden="true"></a>
+  
+  <div class="author-bio">
+    <section class="author-bio-top">
+      <a href="/author/ronamadeo" class="author-name">Ron Amadeo</a>
+      Ron is the Reviews Editor at Ars Technica, where he specializes in Android OS and Google products. He is always on the hunt for a new gadget and loves to rip things apart to see how they work.    </section>
+    <section class="author-social">
+              <strong>Email</strong> <a href="mailto:ron@arstechnica.com">ron@arstechnica.com</a>
+                    <span class="slashes">//</span>
+                    <strong>Twitter</strong> <a href="https://www.twitter.com/RonAmadeo" target="_blank">@RonAmadeo</a>
+          </section>
+    
+  </div>
+
+</section>
+      </div>
+  <div class="xrail"></div>
+</div>
+
+
+<div id="article-footer-wrap">
+  
+      <aside class="ad ad_fullwidth fullwidth" aria-label="Full width advertisement"></aside>
+    
+      <section id="comments-area" class="comments-area column-wrapper">
+  <div class="row comments-row left-column">
+    <a name="comments-bar"></a>
+          <div id="comments-container"></div>
+      <div id="comments-posting-container" class="thick-divide-bottom">
+        <p id="reply">You must <a href="https://arstechnica.com/civis/ucp.php?mode=login&return_to/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/" class="vote_login">login or create an account</a> to comment.</p>
+      </div>
+      </div>
+    <div class="xrail xrail-comments">
+    <div class="xrail-content xrail-content-comments">
+        <aside class="ad ad_xrail ad_xrail_comments" aria-label="Comments sidebar advertisement"></aside>
+    </div>
+  </div>
+  </section>
+          <section class="inline-playlist">
+  <div class='ars-video-playlist'>
+    <h3 class="ars-video-playlist-module-header">Channel <span>Ars Technica</span></h3>
+    <div class='ars-video-playlist-module' data-playlist-id='arstechnica-channel-ars-gadgets' data-video-options='[]'></div>
+  </div>
+</section>
+        <div class="prev-next-links">
+  <a href="https://arstechnica.com/information-technology/2020/09/companies-can-track-your-phones-movements-to-target-ads/" rel="prev"><span class="arrow">&larr;</span> Previous story</a>  <a href="https://arstechnica.com/information-technology/2020/09/traders-set-to-don-virtual-reality-headsets-in-their-home-offices/" rel="next">Next story <span class="arrow">&rarr;</span></a></div>
+    <footer id="article-footer">
+  <div id="recommendations-footer">
+    <div id="story-recommendations">
+  <div class="heading-column">
+    <h3>Related Stories</h3>
+  </div>
+  <ul id="story-recs" class="rec-wrap"></ul>
+</div>
+        <div id="sponsored-recommendations">
+  <div class="heading-column">
+    <h3>Sponsored Stories</h3>
+    <a href="http://www.outbrain.com/what-is/default/en" target="_blank">Powered by <span class="icon outbrain-logo icon-logo-outbrain"></span></a>
+  </div>
+  <ul id="outbrain-recs"></ul>
+</div>
+        <div id="latest-stories">
+  <div class="heading-column">
+    <h3>Today on Ars</h3>
+  </div>
+  <ul id="latest-recs" class="rec-wrap"></ul>
+</div>
+  </div>
+</footer>
+  </div>
+  </article>
+  </main>
+
+  <footer class="site-footer">
+    <nav class="nav-footer">
+
+  <section>
+    <ul>
+      <li><a href="/store/">Store</a></li>
+      <li><a href="/store/product/subscriptions/">Subscribe</a></li>
+      <li><a href="/about-us/">About Us</a></li>
+      <li><a href="/rss-feeds/">RSS Feeds</a></li>
+      <li><a rel="nofollow" href="http://arstechnica.com/gadgets/2020/09/the-android-11-interview-googlers-answer-our-burning-questions/?view=mobile">View Mobile Site</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <ul>
+      <li><a href="/contact-us/">Contact Us</a></li>
+      <li><a href="/staff-directory/">Staff</a></li>
+      <li><a href="/advertise-with-us/">Advertise with us</a></li>
+      <li><a href="/reprints/">Reprints</a></li>
+    </ul>
+  </section>
+
+  <section class="footer-newsletter">
+    <div class="newsletter-wrapper">
+      <h3>
+        <a href="/newsletters/">Newsletter Signup</a>
+      </h3>
+      <p>Join the Ars Orbital Transmission mailing list to get weekly updates delivered to your inbox.</p>
+      <a class="button" href="/newsletters/">Sign me up &rarr;</a>
+    </div>
+  </section>
+
+</nav>
+
+<section class="footer-terms-logo">
+  <div class="cn-logo">
+    <a href="http://condenast.com/" class="icon icon-logo-cn-us" title="Visit Condé Nast"></a>
+  </div>
+
+  <p id="copyright-terms">
+  CNMN Collection<br>
+  WIRED Media Group<br>
+  © 2020 Condé Nast. All rights reserved. Use of and/or registration on any portion of this site constitutes acceptance of our <a href="https://www.condenast.com/user-agreement/">User Agreement</a> (updated 1/1/20) and <a href="https://www.condenast.com/privacy-policy/">Privacy Policy and Cookie Statement</a> (updated 1/1/20) and <a href="/amendment-to-conde-nast-user-agreement-privacy-policy/">Ars Technica Addendum</a> (effective 8/21/2018). Ars may earn compensation on sales from links on this site. <a href="/affiliate-link-policy/">Read our affiliate link policy</a>.<br>
+  <a href="https://www.condenast.com/privacy-policy/#california">Your California Privacy Rights</a> | <a id="ot-sdk-btn" class="ot-sdk-show-settings">Do Not Sell My Personal Information</a><br>
+  The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast.<br>
+  <a href="https://www.condenast.com/online-behavioral-advertising-oba-and-how-to-opt-out-of-oba/#clickheretoreadmoreaboutonlinebehavioraladvertising(oba)">Ad Choices</a>
+</p>
+</section>
+  </footer>
+</div>
+
+<script type="text/javascript" src="https://cdn.arstechnica.net/wp-content/themes/ars/assets/js/main-31d5f848d8.js"></script>
+
+
+<!-- cache hit 3161:single/javascript-footer:c742580a42e6bf305b44d3058cff7312 -->
+        
+
+
+  <script async type="application/javascript" src="https://embed.actionbutton.co/widget/widget.min.js" ></script>
+
+  
+  <!-- Parse.ly start -->
+<script id="parsely-cfg" src="//fpa-cdn.arstechnica.com/keys/arstechnica.com/p.js"></script>
+<!-- Parse.ly end -->
+
+
+
+
+<script src="https://player.cnevids.com/interlude/arstechnica.js" async></script>
+<script id="conde-polar" src="https://cdn.mediavoice.com/nativeads/script/condenastcorporate/conde-asa-polar-master.js" async></script>
+<script>
+  (function () {
+      function DQ() {
+        var queue = window.sparrowQueue;
+        this.push = fn => fn();
+        window.sparrowQueue = this;
+        while (queue.length) {
+          queue.shift()();
+        }
+      }
+      function e(t, e) {
+        var n, a, o;
+        a = !1, n = document.createElement("script"), n.type = "text/javascript", n.src = t, n.onload = n.onreadystatechange = function () {
+          a || this.readyState && "complete" != this.readyState || (a = !0, e ? e() : !0)
+        }, o = document.getElementsByTagName("script")[0], o.parentNode.insertBefore(n, o)
+      }
+      if (location.search.indexOf('no_sparrow') < 0) {
+        e("https://pixel.condenastdigital.com/config/v2/production/ars-technica.config.js", function () {
+          e("https://pixel.condenastdigital.com/sparrow.min.js", function () {
+            if (window.SparrowConfigV2) {
+              window.sparrow = new window.Sparrow(window.SparrowConfigV2);
+              new DQ();
+            }
+          })
+        })
+      }
+    })();
+</script>
+<script type="text/javascript" src="//s.skimresources.com/js/100098X1555750.skimlinks.js"></script>
+</body>
+</html>
